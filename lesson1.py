@@ -143,22 +143,128 @@
 
 #1019
 
-a = int(input())
-if a % 2 == 0:
-    print(a // 2)
-else:
-    print(0)
+# a = int(input())
+# if a % 2 == 0:
+#    print(a // 2)
+# else:
+#   print(0)
 
 
 #1020
 
-a, b = map(int, input().split())
+# a, b = map(int, input().split())
 
-print(min(a, b), max(a, b))
+# print(min(a, b), max(a, b))
 
 
 
 #1021
+# P = float(input())
+# if P.is_integer():
+#     print("Yes")
+# else:
+#     print("No")
 
 
 #1022
+# a, b, c, d = map(int, input().split())
+# minimum = min(a, b, c, d)
+# maximum = max(a, b, c, d)
+# print(minimum, maximum)
+
+
+#1023
+# x, y = map(int, input().split())
+# if x < 0 and y > 0:
+#     print("Yes")
+# else:
+#     print("No")
+
+
+#1024
+# x, y = map(int, input().split())
+# if x > 0 and y > 0:
+#    print(1)
+# elif x < 0 and y > 0:
+#     print(2)
+# elif x < 0 and y < 0:
+#     print(3)
+# elif x > 0 and y < 0:
+#    print(4)
+
+#1025
+# x, y, z = map(int, input().split())
+# if x + y > z and x + z > y and y + z > x:
+#     print("Yes")
+# else:
+#     print("No")
+
+
+#1026
+# a, b, c, d = map(int, input().split())
+# if a < b < c < d:
+#    print("Yes")
+# else:
+#   print("No")
+
+
+
+#1027
+# N = int(input())
+# max_digit = 0
+# while N > 0:
+#     digit = N % 10
+#   if digit > max_digit:
+#         max_digit = digit
+#     N = N // 10
+# print(max_digit)
+
+
+
+#1028
+# 2N = int(input())
+# a = N // 10
+# b = N % 10
+# square_N = N ** 2
+# cube_sum_digits = (a + b) ** 3
+# if square_N == cube_sum_digits:
+#     print(a + b)
+# else:
+#     print(abs(a - b))
+
+
+#1029
+# x = float(input())
+# if x == 1 or x == -1:
+#   print("No")
+# else:
+#     y = (x**3 + 2) / (x**2 - 1) + 5
+#      print(f"{y:.3f}")
+
+
+#1030
+# N = int(input())
+# first_digit = N // 10
+# second_digit = N % 10
+# if second_digit == 0:
+#     print("NO")
+# else:
+#     result = first_digit // second_digit
+#     print(result)
+
+
+
+#1035
+
+# def find_initial_loafs(k):
+#     loaves = 0
+#     for _ in range(k):
+#         loaves = 2 * (loaves + 0.5)
+#    return int(loaves)
+#
+# t = int(input())
+# for _ in range(t):
+#     k = int(input())
+#     print(find_initial_loafs(k))
+
+
